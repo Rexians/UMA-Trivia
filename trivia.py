@@ -5,6 +5,13 @@ import os
 from colorama import Fore
 
 # Helpers
+def total(difficulty: str):
+    with open("./trivia.json", "r") as f:
+        data = json.load(f)
+    if difficulty in ["easy", "Easy"]:
+        return len(data["easy"])
+    elif difficulty in ["hard", "Hard"]:
+        return len(data["hard"])
 
 
 def welcome():
@@ -19,10 +26,13 @@ def welcome():
  ░░████████ █████     █████████   █████
   ░░░░░░░░ ░░░░░     ░░░░░░░░░   ░░░░░ 
             Trivia Maker\n
+Total Easy Questions:{total('easy')}
+Total Hard Questions:{total('hard')}
+
 Configuring...
 """
     )
-    time.sleep(5)
+    time.sleep(10)
 
 
 def clear_console():
@@ -33,6 +43,8 @@ def clear_console():
 
 
 def ask_difficulty():
+    print(f"Total Easy Questions: {total('easy')}")
+    print(f"Total Hard Questions: {total('hard')}\n")
     difficulty = input(Fore.BLUE + "Difficulty:(Easy/Hard)\n")
     if difficulty in ["Easy", "easy", "Hard", "hard"]:
         clear_console()
