@@ -1,4 +1,45 @@
 {
-  "easy": [],
+  "easy": [
+    {
+      "question": "What debuff does Hyperion deal on SP1?",
+      "answers": ["Armor Break", "Incinerate"],
+      "correct_answer": "Incinerate"
+    },
+    {
+      "question": "Ghost is not able to phase during which debuff?",
+      "answers": ["Armor Break", "Bleed"],
+      "correct_answer": "Armor Break"
+    },
+    {
+      "question": "When was Hercules released?",
+      "answers": ["2020", "2021"],
+      "correct_answer": "2021"
+    },
+    {
+      "question": "When was Marvel Contest of Champions released?",
+      "answers": ["2016", "2014"],
+      "correct_answer": "2014"
+    },
+    {
+      "question": "Spider Man is from Tech class.",
+      "answers": ["True", "False"],
+      "correct_answer": "False"
+    },
+    {
+      "question": "Which champion is capable of doing 'Shrapnel bleed'?",
+      "answers": ["Black Panther", "Magneto(Red)"],
+      "correct_answer": "Magneto(Red)"
+    },
+    {
+      "question": "Which title is earned after completing Act 6?",
+      "answers": ["Proven", "None"],
+      "correct_answer": "None"
+    },
+    {
+      "question": "Name the buff Dark Hawk has.",
+      "answers": ["Shield Mode", "Armor Mode"],
+      "correct_answer": "Shield Mode"
+    }
+  ],
   "hard": []
 }

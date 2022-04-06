@@ -2,6 +2,9 @@
 
 UMA-Trivia is a repo connected to [UMA](https://github.com/Rexians/UMA). This repo purpose is to get trivia questions for our next version which will have trivia questions feature.
 
+- Total Easy Questions(06/04/22): 8
+- Total Hard Questions(06/04/22): 0
+
 ## Clone
 
 ```bash
