@@ -112,7 +112,7 @@ def confirmation(question: str, answers: list, difficulty: str, correct_answer: 
             }
             with open("./trivia.json", "r") as f:
                 pre_data = json.load(f)
-                pre_data[difficulty].append(data_to_dump)
+                pre_data[difficulty.lower()].append(data_to_dump)
             with open("./trivia.json", "w") as f:
                 json.dump(pre_data, f, indent=4)
             clear_console()
